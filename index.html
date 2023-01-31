@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+    
+        <meta charset="UTF-8">
+
+        <title>Encriptador de Texto - By Pablo.</title>
+        
+        <link rel="stylesheet" href="reset.css">
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="shortcut icon" href="recursos/icono-explorador.png">         
+    </head>
+
+    <body>
+
+        <header>
+                
+            <div class="caja">
+                
+                <img src="recursos/niños_exploradores.png" alt="niños exploradores" class="imagenes-header">
+
+                <div class="creditos">
+
+                    <h2>ENCRIPTADOR DE TEXTO PARA ALURA LATAM<h2>
+    
+                    <h2>By: Pablo Querales</h2>
+    
+                </div>
+                
+                <div class="titulo-principal">
+    
+                    <h1>Bienvenido al encriptador de texto futuro explorador,</h1>
+    
+                    <h2> acá podras escribir mensajes que no serán descifrados facilmente.</h2>
+    
+                </div>
+
+            </div>
+    
+        </header>
+    
+        <main>
+    
+            <div class="reglas">
+    
+                <p>Todo lugar tiene reglas así que no olvides de seguir las de acá.</p>
+    
+                <p>⚠ No uses acentos, números o caracteres especiales (. / , = ; "" ...). ⚠</p>
+    
+            </div>    
+
+            <section class="columna-encriptar">
+                    
+                    <textarea rows="10" autocorect="on" class="entrada-texto" placeholder="!Hola explorador¡ Por favor incresa el mensaje que deseas convertir en un secreto."></textarea>
+    
+                    <button class="boton-encriptar" id="boton" onclick="botonEncriptar()"> Shhh! Guardaremos tu Secreto </button>
+    
+                    <button class="boton-desencriptar" id="boton" onclick="botonDesencriptar()"> Revelar Secreto </button>
+    
+            </section>
+
+            <section class="columna-desencriptar">
+
+                    <textarea rows="10" autocorect="on" class="salida-texto" placeholder="!Atento explorador¡ Por acá saldrá tu mensaje cifrado."></textarea>
+    
+                    <button class="boton-copiar" id="boton" onclick="copiar()"> Copiar Mensaje Secreto </button>
+    
+            </section>
+        
+        </main>
+    
+        <footer>
+        
+            <img src="recursos/guia_explorador.png" alt="guia explorador y niños" class="imagen-footer">
+
+            <p class="copyright"> &copy Copyright Pablo Querales 2022</p>
+        
+            <nav>        
+            
+                <ul>
+                
+                    <li><a href="https://github.com/Klishe21">Github</a></li>
+                
+                    <li><a href="https://es.linkedin.com/">Linkedin</a></li>
+                
+                    <li><a href="https://instagram.com/pablo_querales?igshid=NTA5ZTk1NTc=">Instagram</a></li>
+
+                </ul>
+
+            </nav>
+    
+        </footer>
+    
+        <script src="script.js"></script>
+    
+    </body>
+
+</html>
