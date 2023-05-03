@@ -1,85 +1,98 @@
-body{
+body {
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-weight: bold;
-    background: linear-gradient(0.90turn, lightgreen,green,rgb(16, 161, 16),rgb(95, 240, 95));   
+    background: linear-gradient(0.90turn, lightgreen, green, rgb(16, 161, 16), rgb(95, 240, 95));
 }
-header{
+
+header {
     font-weight: bold;
-    box-shadow: 10px  0px 20px 5px black;
+    box-shadow: 10px 0px 20px 5px black;
 }
-.caja{
+
+.caja {
     width: 940px;
-    position:static;
+    position: static;
     display: inline;
     color: white;
-    font-size:20px;
+    font-size: 20px;
 }
-.imagenes-header{
+
+.imagenes-header {
     width: 250px;
-    position:absolute;
+    position: absolute;
 }
-.creditos{
+
+.creditos {
     font-size: 17px;
     text-align: end;
     padding: 1em 1em 0 0;
     font-weight: bold;
 }
-.titulo-principal{
+
+.titulo-principal {
     text-shadow: 2px 2px white;
 }
-.titulo-principal,h1{
+
+.titulo-principal,
+h1 {
     text-align: center;
-    color:#000000;
+    color: #000000;
     font-weight: bold;
     font-size: 30px;
     padding: 0 0 1em 0;
 
 }
-main{
+
+main {
     margin-top: 4em;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.reglas{
+
+.reglas {
     margin: 0 50px 30px 50px;
 }
 
-.columna-encriptar{
+.columna-encriptar {
     display: flex;
     flex-direction: column;
     width: 40%;
 
 }
-.entrada-texto{
+
+.entrada-texto {
     font-weight: bold;
     color: black;
     resize: none;
     margin: 0 30px;
     border: 0;
-    border-radius:15px;
+    border-radius: 15px;
     background: whitesmoke;
     padding: 20px;
     font-size: 17px;
     box-shadow: 10px 10px 30px 5px black;
     text-transform: lowercase;
 }
-.entrada-texto:focus{
+
+.entrada-texto:focus {
     outline: none;
 }
-.columna-desencriptar{
+
+.columna-desencriptar {
     display: flex;
     flex-direction: column;
     width: 30%;
 }
-.salida-texto{
+
+.salida-texto {
     overflow: visible;
     font-weight: bold;
     color: black;
     resize: none;
     margin: 0 30px;
     border: 0;
-    border-radius:15px;
+    border-radius: 15px;
     background: whitesmoke;
     background-image: url(recursos/explorador.png);
     background-size: 35%;
@@ -90,28 +103,35 @@ main{
     box-shadow: 10px 10px 30px 5px black;
 
 }
-.salida-texto:focus{
+
+.salida-texto:focus {
     outline: none;
 }
-#boton{
+
+#boton {
     font-weight: bold;
     border: none;
-    border-radius:20px;
+    border-radius: 20px;
     padding: 5px;
     margin: 2em 2em 0 2em;
     cursor: pointer;
     box-shadow: 10px 10px 30px 5px black;
-    font-family:'Sofia Sans Semi Condensed', sans-serif;
-    background: linear-gradient(0.180turn,lightgreen,white, lightgreen );
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    background: linear-gradient(0.180turn, lightgreen, white, lightgreen);
     height: 40px;
     width: auto;
     font-size: 20px;
     transition: 100ms all;
 }
-#botones,.boton-desencriptar:hover,.boton-encriptar:hover,.boton-copiar:hover{
+
+#botones,
+.boton-desencriptar:hover,
+.boton-encriptar:hover,
+.boton-copiar:hover {
     transform: scale(1.05);
 }
-.reglas{
+
+.reglas {
     text-align: center;
     padding: 10px;
     font-weight: bold;
@@ -119,34 +139,39 @@ main{
     text-decoration: underline;
     display: block;
 }
-footer{
+
+footer {
     text-align: center;
     padding: 40px;
     color: whitesmoke;
     font-size: 15px;
 }
 
-nav{
-    position:static;
+nav {
+    position: static;
     text-align: center;
     margin-top: 20px;
 }
-nav li{
-    display:inline;
+
+nav li {
+    display: inline;
     padding: 20px;
-    
+
 }
-nav a{
+
+nav a {
     text-transform: uppercase;
     color: whitesmoke;
     font-weight: bold;
     text-decoration: none;
 }
-nav a:hover{
+
+nav a:hover {
     color: black;
     text-decoration: underline;
     transition: 400ms;
 }
-.imagen-footer{
- width: 100px;
+
+.imagen-footer {
+    width: 100px;
 }
