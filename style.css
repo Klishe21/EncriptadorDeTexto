@@ -9,7 +9,7 @@ header {
     box-shadow: 10px 0px 20px 5px black;
 }
 
-.caja {
+.header_box {
     width: 940px;
     position: static;
     display: inline;
@@ -17,12 +17,15 @@ header {
     font-size: 20px;
 }
 
-.imagenes-header {
+.header_img {
     width: 250px;
     position: absolute;
 }
+.header_titulo{
+    display:flex
+}
 
-.creditos {
+.header_titulo-creditos {
     font-size: 17px;
     text-align: end;
     padding: 1em 1em 0 0;
@@ -33,8 +36,7 @@ header {
     text-shadow: 2px 2px white;
 }
 
-.titulo-principal,
-h1 {
+.header_titulo-principal {
     text-align: center;
     color: #000000;
     font-weight: bold;
