@@ -2,27 +2,25 @@ body {
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
     font-weight: bold;
     background: linear-gradient(0.90turn, lightgreen, green, rgb(16, 161, 16), rgb(95, 240, 95));
+
 }
 
 header {
-    font-weight: bold;
     box-shadow: 10px 0px 20px 5px black;
+width: auto;
 }
 
 .header_box {
-    width: 940px;
-    position: static;
-    display: inline;
+    display: flex;
+    justify-content: space-between;
     color: white;
-    font-size: 20px;
 }
-
+.header_box_img {
+    width: 25%;
+}
 .header_img {
     width: 250px;
     position: absolute;
-}
-.header_titulo{
-    display:flex
 }
 
 .header_titulo-creditos {
@@ -30,11 +28,11 @@ header {
     text-align: end;
     padding: 1em 1em 0 0;
     font-weight: bold;
+    width: 25%;
+    margin-top: 20px;
 }
 
-.titulo-principal {
-    text-shadow: 2px 2px white;
-}
+
 
 .header_titulo-principal {
     text-align: center;
@@ -42,7 +40,8 @@ header {
     font-weight: bold;
     font-size: 30px;
     padding: 0 0 1em 0;
-
+    width: 50%;
+    margin-top: 20px;
 }
 
 main {
