@@ -1,178 +1,177 @@
 body {
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
-    font-weight: bold;
-    background: linear-gradient(0.90turn, lightgreen, green, rgb(16, 161, 16), rgb(95, 240, 95));
-
+	font-family: "Sofia Sans Semi Condensed", sans-serif;
+	font-weight: bold;
+	background: linear-gradient(0.9turn, lightgreen, green, rgb(16, 161, 16), rgb(95, 240, 95));
 }
 
 header {
-    box-shadow: 10px 0px 20px 5px black;
-width: auto;
+	box-shadow: 10px 0px 20px 5px black;
+	width: auto;
 }
 
 .header_box {
-    display: flex;
-    justify-content: space-between;
-    color: white;
+	display: flex;
+	justify-content: space-between;
+	color: white;
 }
 .header_box_img {
-    width: 25%;
+	width: 25%;
 }
 .header_img {
-    width: 250px;
-    position: absolute;
+	width: 250px;
+	position: absolute;
 }
 
 .header_titulo-creditos {
-    font-size: 17px;
-    text-align: end;
-    padding: 1em 1em 0 0;
-    font-weight: bold;
-    width: 25%;
-    margin-top: 20px;
+	font-size: 17px;
+	text-align: end;
+	padding-right: 1em;
+	font-weight: bold;
+	width: 25%;
+	margin-top: 20px;
 }
-
-
 
 .header_titulo-principal {
-    text-align: center;
-    color: #000000;
-    font-weight: bold;
-    font-size: 30px;
-    padding: 0 0 1em 0;
-    width: 50%;
-    margin-top: 20px;
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 0 0 1em 0;
+	width: 50%;
+	margin-top: 20px;
 }
 
-main {
-    margin-top: 4em;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.main_box {
+	margin-top: 1em;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .reglas {
-    margin: 0 50px 30px 50px;
+	margin: 10px 50px 15px 50px;
+	display: inline;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.container_box {
+	display: flex;
+	width: 90%;
+	justify-content: space-around;
 }
 
 .columna-encriptar {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-
+	display: flex;
+	flex-direction: column;
+	width: 30%;
 }
 
 .entrada-texto {
-    font-weight: bold;
-    color: black;
-    resize: none;
-    margin: 0 30px;
-    border: 0;
-    border-radius: 15px;
-    background: whitesmoke;
-    padding: 20px;
-    font-size: 17px;
-    box-shadow: 10px 10px 30px 5px black;
-    text-transform: lowercase;
+	font-weight: bold;
+	color: black;
+	resize: none;
+	margin: 0 30px;
+	border: 0;
+	border-radius: 15px;
+	background: whitesmoke;
+	padding: 20px;
+	font-size: 17px;
+	box-shadow: 10px 10px 30px 5px black;
+	text-transform: lowercase;
 }
 
 .entrada-texto:focus {
-    outline: none;
+	outline: none;
 }
 
 .columna-desencriptar {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
 }
 
 .salida-texto {
-    overflow: visible;
-    font-weight: bold;
-    color: black;
-    resize: none;
-    margin: 0 30px;
-    border: 0;
-    border-radius: 15px;
-    background: whitesmoke;
-    background-image: url(recursos/explorador.png);
-    background-size: 35%;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 20px;
-    font-size: 17px;
-    box-shadow: 10px 10px 30px 5px black;
-
+	overflow: visible;
+	font-weight: bold;
+	color: black;
+	resize: none;
+	margin: 0 30px;
+	border: 0;
+	border-radius: 15px;
+	background: whitesmoke;
+	background-image: url(recursos/explorador.png);
+	background-size: 35%;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 20px;
+	font-size: 17px;
+	box-shadow: 10px 10px 30px 5px black;
 }
 
 .salida-texto:focus {
-    outline: none;
+	outline: none;
 }
 
 #boton {
-    font-weight: bold;
-    border: none;
-    border-radius: 20px;
-    padding: 5px;
-    margin: 2em 2em 0 2em;
-    cursor: pointer;
-    box-shadow: 10px 10px 30px 5px black;
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
-    background: linear-gradient(0.180turn, lightgreen, white, lightgreen);
-    height: 40px;
-    width: auto;
-    font-size: 20px;
-    transition: 100ms all;
+	font-weight: bold;
+	border: none;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 0.6rem;
+	cursor: pointer;
+	box-shadow: 10px 10px 30px 5px black;
+	font-family: "Sofia Sans Semi Condensed", sans-serif;
+	background: linear-gradient(0.18turn, lightgreen, white, lightgreen);
+	height: 40px;
+	width: auto;
+	font-size: 20px;
+	transition: 100ms all;
 }
 
 #botones,
 .boton-desencriptar:hover,
 .boton-encriptar:hover,
 .boton-copiar:hover {
-    transform: scale(1.05);
-}
-
-.reglas {
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 30px;
-    text-decoration: underline;
-    display: block;
+	transform: scale(1.05);
 }
 
 footer {
-    text-align: center;
-    padding: 40px;
-    color: whitesmoke;
-    font-size: 15px;
+	text-align: center;
+	color: whitesmoke;
+	font-size: 15px;
+	box-sizing: border-box;
+	padding: 0 5px 35px 5px;
 }
 
 nav {
-    position: static;
-    text-align: center;
-    margin-top: 20px;
+	position: static;
+	text-align: center;
+	margin: 2px 0 2px 0;
 }
 
 nav li {
-    display: inline;
-    padding: 20px;
-
+	display: inline;
+	padding-left: 25px;
 }
 
 nav a {
-    text-transform: uppercase;
-    color: whitesmoke;
-    font-weight: bold;
-    text-decoration: none;
+	text-transform: uppercase;
+	color: whitesmoke;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 nav a:hover {
-    color: black;
-    text-decoration: underline;
-    transition: 400ms;
+	color: black;
+	text-decoration: underline;
+	transition: 400ms;
 }
 
 .imagen-footer {
-    width: 100px;
+	width: 80px;
 }
