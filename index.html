@@ -7,9 +7,7 @@
 		<link rel="stylesheet" href="style.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300&display=swap"
-			rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300&display=swap" rel="stylesheet" />
 		<link rel="shortcut icon" href="recursos/icono-explorador.png" />
 	</head>
 	<body>
@@ -45,12 +43,8 @@
 							autocorect="on"
 							class="entrada-texto"
 							placeholder="!Hola explorador¡ Por favor incresa el mensaje que deseas convertir en un secreto."></textarea>
-						<button class="boton-encriptar" id="boton" onclick="botonEncriptar()">
-							Shhh! Guardaremos tu Secreto
-						</button>
-						<button class="boton-desencriptar" id="boton" onclick="botonDesencriptar()">
-							Revelar Secreto
-						</button>
+						<button class="boton-encriptar" id="boton" onclick="botonEncriptar()">Shhh! Guardaremos tu Secreto</button>
+						<button class="boton-desencriptar" id="boton" onclick="botonDesencriptar()">Revelar Secreto</button>
 					</div>
 					<div class="columna-desencriptar">
 						<textarea
@@ -64,17 +58,23 @@
 			</div>
 		</main>
 		<footer>
-			<img src="recursos/guia_explorador.png" alt="guia explorador y niños" class="imagen-footer" />
-			<p class="copyright">&copy Copyright Pablo Querales 2023</p>
-			<nav>
-				<ul>
-					<li><a href="https://github.com/Klishe21">Github</a></li>
-					<li><a href="https://es.linkedin.com/">Linkedin</a></li>
-					<li>
-						<a href="https://instagram.com/pablo_querales?igshid=NTA5ZTk1NTc=">Instagram</a>
-					</li>
-				</ul>
-			</nav>
+			<div class="footer_box">
+				<img src="recursos/guia_explorador.png" alt="guia explorador y niños" class="imagen_footer" />
+				<p class="copyright">&copy Copyright Pablo Querales 2023</p>
+				<nav class="footer_nav">
+					<ul class="footer_ul">
+						<li class="footer_lista">
+							<a class="footer_link" href="https://github.com/Klishe21">Github</a>
+						</li>
+						<li class="footer_lista">
+							<a class="footer_link" href="https://es.linkedin.com/">Linkedin</a>
+						</li>
+						<li class="footer_lista">
+							<a class="footer_link" href="https://instagram.com/pablo_querales?igshid=NTA5ZTk1NTc=">Instagram</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</footer>
 		<script src="script.js"></script>
 	</body>

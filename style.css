@@ -140,7 +140,7 @@ header {
 	transform: scale(1.05);
 }
 
-footer {
+.footer_box {
 	text-align: center;
 	color: whitesmoke;
 	font-size: 15px;
@@ -148,18 +148,22 @@ footer {
 	padding: 0 5px 35px 5px;
 }
 
-nav {
+.imagen_footer {
+	width: 80px;
+}
+
+.footer_nav {
 	position: static;
 	text-align: center;
 	margin: 2px 0 2px 0;
 }
 
-nav li {
+.footer_lista {
 	display: inline;
 	padding: 10px;
 }
 
-nav a {
+.footer_link {
 	text-transform: uppercase;
 	color: whitesmoke;
 	font-weight: bold;
@@ -170,8 +174,4 @@ nav a:hover {
 	color: black;
 	text-decoration: underline;
 	transition: 400ms;
-}
-
-.imagen-footer {
-	width: 80px;
 }
