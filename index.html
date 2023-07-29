@@ -2,7 +2,9 @@
 <html lang="es">
 	<head>
 		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<title>Encriptador de Texto - By Pablo.</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="reset.css" />
 		<link rel="stylesheet" href="style.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -43,8 +45,10 @@
 							autocorect="on"
 							class="entrada-texto"
 							placeholder="!Hola explorador¡ Por favor incresa el mensaje que deseas convertir en un secreto."></textarea>
-						<button class="boton-encriptar" id="boton" onclick="botonEncriptar()">Shhh! Guardaremos tu Secreto</button>
-						<button class="boton-desencriptar" id="boton" onclick="botonDesencriptar()">Revelar Secreto</button>
+						<div class="botones_encriptar">
+							<button class="boton-encriptar" id="boton" onclick="botonEncriptar()">Shhh! Guardaremos tu Secreto</button>
+							<button class="boton-desencriptar" id="boton" onclick="botonDesencriptar()">Revelar Secreto</button>
+						</div>
 					</div>
 					<div class="columna-desencriptar">
 						<textarea
@@ -52,7 +56,9 @@
 							autocorect="on"
 							class="salida-texto"
 							placeholder="!Atento explorador¡ Por acá saldrá tu mensaje cifrado."></textarea>
-						<button class="boton-copiar" id="boton" onclick="copiar()">Copiar Mensaje Secreto</button>
+						<div class="botones_desencriptar">
+							<button class="boton-copiar" id="boton" onclick="copiar()">Copiar Mensaje Secreto</button>
+						</div>
 					</div>
 				</div>
 			</div>

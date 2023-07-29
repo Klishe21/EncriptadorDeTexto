@@ -69,6 +69,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	width: 30%;
+	align-items: center;
 }
 
 .entrada-texto {
@@ -83,6 +84,7 @@ header {
 	font-size: 17px;
 	box-shadow: 10px 10px 30px 5px black;
 	text-transform: lowercase;
+	width: 100%;
 }
 
 .entrada-texto:focus {
@@ -92,7 +94,7 @@ header {
 .columna-desencriptar {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	align-items: center;
 }
 
 .salida-texto {
@@ -111,10 +113,21 @@ header {
 	padding: 20px;
 	font-size: 17px;
 	box-shadow: 10px 10px 30px 5px black;
+	width: 100%;
 }
 
 .salida-texto:focus {
 	outline: none;
+}
+
+.botones_desencriptar {
+	display: flex;
+	justify-content: center;
+}
+
+.botones_encriptar {
+	display: flex;
+	justify-content: center;
 }
 
 #boton {
@@ -127,7 +140,7 @@ header {
 	box-shadow: 10px 10px 30px 5px black;
 	font-family: "Sofia Sans Semi Condensed", sans-serif;
 	background: linear-gradient(0.18turn, lightgreen, white, lightgreen);
-	height: 40px;
+	height: 60px;
 	width: auto;
 	font-size: 20px;
 	transition: 100ms all;
@@ -174,4 +187,71 @@ nav a:hover {
 	color: black;
 	text-decoration: underline;
 	transition: 400ms;
+}
+/* RESPONSIVE */
+
+@media screen and (max-width: 767px) {
+	.header_img {
+		width: 150px;
+	}
+	.header_titulo-creditos {
+		font-size: 10px;
+	}
+
+	.header_titulo-principal {
+		font-size: 13px;
+	}
+	.reglas {
+		font-size: 12px;
+	}
+	.container_box {
+		flex-direction: column;
+	}
+	.columna-encriptar {
+		width: 100%;
+		flex-direction: initial;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 15px;
+	}
+	.entrada-texto {
+		font-size: 10px;
+		height: 60px;
+		margin: 0.1rem;
+		width: 50%;
+	}
+	#boton {
+		width: auto;
+		font-size: 10px;
+		padding: 0px;
+		margin: 0.6rem;
+	}
+	.botones_encriptar {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 30%;
+	}
+	.columna-desencriptar {
+		width: 100%;
+		flex-direction: initial;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 15px;
+	}
+
+	.salida-texto {
+		font-size: 10px;
+		height: 60px;
+		margin: 0.1rem;
+		width: 50%;
+	}
+	.botones_desencriptar {
+		width: 30%;
+		display: flex;
+		justify-content: center;
+	}
+	.footer_box {
+		font-size: 10px;
+	}
 }
