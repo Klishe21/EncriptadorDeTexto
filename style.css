@@ -1,4 +1,5 @@
 body {
+	box-sizing: border-box;
 	font-family: "Sofia Sans Semi Condensed", sans-serif;
 	font-weight: bold;
 	background: linear-gradient(0.9turn, lightgreen, green, rgb(16, 161, 16), rgb(95, 240, 95));
@@ -157,8 +158,7 @@ header {
 	text-align: center;
 	color: whitesmoke;
 	font-size: 15px;
-	box-sizing: border-box;
-	padding: 0 5px 35px 5px;
+	padding: 0 5px 10px 5px;
 }
 
 .imagen_footer {
